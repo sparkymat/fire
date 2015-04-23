@@ -24,4 +24,4 @@ _testmain.go
 *.prof
 .DS_Store
 fire
-./public/js/app
+/public/js/app

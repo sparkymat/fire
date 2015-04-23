@@ -9,7 +9,7 @@ GO_SRC = fire.go controller/user.go
 all: $(MODELS_LIB) $(COMPONENTS_LIB) $(GO_BINARY)
 
 $(GO_BINARY): $(GO_SRC)
-	go build main.go
+	go build fire.go
 
 public/js/app/models/%.js: app/models/%.es6
 	mkdir -p public/js/app/models
