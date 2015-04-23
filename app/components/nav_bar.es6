@@ -21,7 +21,7 @@ class NavBar extends React.Component {
       return (
         <nav>
           <div className='nav-wrapper indigo white-text'>
-            <a href='#' className='brand-logo'>YouHaveTo</a>
+            <a href='#' className='brand-logo'>Fire</a>
             <ul id='main-menu' className='right hide-on-med-and-down'>
               <li><input type="email" placeholder="E-mail" /></li>
               <li><input type="password" placeholder="Password" /></li>
@@ -35,7 +35,7 @@ class NavBar extends React.Component {
       return (
         <nav>
           <div className='nav-wrapper indigo white-text'>
-            <a href='#' className='brand-logo'>YouHaveTo</a>
+            <a href='#' className='brand-logo'>Fire</a>
             <ul id='main-menu' className='right hide-on-med-and-down'>
               <li><a href='#!' onClick={this.loginClicked.bind(this)}>Login</a></li>
             </ul>
