@@ -20,7 +20,7 @@ class FireApp extends React.Component {
 
   render() {
     return (
-      <div className='fire-app row'>
+      <div className='fire row'>
         <MainContainer className='col s12 m12 l12' 
           loginMode={this.state.loginMode}>
         </MainContainer>
